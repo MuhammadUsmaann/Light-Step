@@ -135,8 +135,9 @@ const Catalog = () => {
                 </div>
               </div>
               <div className="card-body p-0 border-0 rounded-0 ">
+                
                 {performanceChanges.map((data) => {
-                  return <PerformanceChanges data={data} />;
+                  return <PerformanceChanges key= {data.id} data={data} />;
                 })}
 
                 
@@ -188,7 +189,7 @@ const Catalog = () => {
                 <div className="most-changes">
                 {mostChanges.map((data)=>{
                     return(
-                      <MoreChanges data = {data} />
+                      <MoreChanges key = {data.id} data = {data} />
                     )
                   })}
                  

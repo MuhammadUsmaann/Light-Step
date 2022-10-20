@@ -27,10 +27,10 @@ const ShareDropdown = () => {
               </p>
               <p className="pt-2 font-14 font-weight-600"><span><svg
                   viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="C9Y-Icon-base C9Y-Icon-font icon-link mr-0.5"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="C9Y-Icon-base C9Y-Icon-font icon-link mr-0.5"
                 >
                   <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3M8 12h8"></path>
                 </svg></span> Link</p>
@@ -44,13 +44,13 @@ const ShareDropdown = () => {
                   disabled=""
                   id=":r9:"
                   type="text"
-                  class="MuiInputBase-input MuiOutlinedInput-input Mui-disabled mui-qyjgik"
+                  className="MuiInputBase-input MuiOutlinedInput-input Mui-disabled mui-qyjgik"
                   value="https://app.lightstep.com/s/change-intelligence/1tSKw6dn5TMi"
                 />
                 <div className="copy-icon-div">
                 <svg
                   viewBox="0 0 24 24"
-                  class="C9Y-Icon-base C9Y-Icon-font icon-copy"
+                  className="C9Y-Icon-base C9Y-Icon-font icon-copy"
                 >
                   <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
                   <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>

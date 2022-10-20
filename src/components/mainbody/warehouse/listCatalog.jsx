@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-import graphimg from "../../../images/comparisonaccordiangraph.png";
-import attributeWMChangeGraph from "../../../images/attributechangegraph.png";
-import DropDownComp from "../../header/dropdown";
+
 import arrowicon from "../../../images/lessthan.svg";
-import subarrowicon from "../../../images/lessthansubicon.svg";
 import PerformanceChanges from "./PerformanceChanges/performancechanges";
 import MoreChanges from "./morechanges/moreChanges";
 
@@ -140,9 +137,10 @@ const ListCatalog = () => {
                 </div>
               </div>
               <div className="card-body p-0 border-0 rounded-0 ">
-                {performanceChanges.map((data) => {
-                  return <PerformanceChanges data={data} />;
+              {performanceChanges.map((data) => {
+                  return <PerformanceChanges key= {data.id} data={data} />;
                 })}
+
 
                 {/* Attributes with the most change */}
                 <div className="border-t-default px-3 pl62px pt-3 pb-2">
@@ -212,7 +210,7 @@ const ListCatalog = () => {
 
                   {mostChanges.map((data)=>{
                     return(
-                      <MoreChanges data = {data} />
+                      <MoreChanges  key= {data.id} data = {data} />
                     )
                   })}
                   

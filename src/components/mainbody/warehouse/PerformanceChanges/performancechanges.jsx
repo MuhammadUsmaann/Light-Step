@@ -3,10 +3,10 @@ import graphimg from "../../../../images/comparisonaccordiangraph.png";
 import subarrowicon from "../../../../images/lessthansubicon.svg";
 
 const PerformanceChanges = (props) => {
-  const { data } = props;
+  const { data,key } = props;
   return (
     <>
-      <div className="card border-0 rounded-0 text-light-gray border-t-default">
+      <div key={key} className="card border-0 rounded-0 text-light-gray border-t-default">
         <div className="card-header border-0 bg-white p-0" id="heading0_1">
           <div
             className="p-3 pl62px cr-p"
