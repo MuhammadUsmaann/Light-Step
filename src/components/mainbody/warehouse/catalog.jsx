@@ -75,8 +75,7 @@ const mostChanges = [
 ];
 
 const Catalog = () => {
-  const [detailCheck, setDetailCheck] = useState(false);
-  const [dsblCustomerCheckbox, setdsblCustomerCheckbox] = useState(true);
+
   return (
     <div className="py-4">
       <div className="">
