@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import arrowicon from "../../../images/lessthan.svg";
 import PerformanceChanges from "./PerformanceChanges/performancechanges";
 import MoreChanges from "./morechanges/moreChanges";
