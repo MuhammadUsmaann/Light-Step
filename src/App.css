@@ -476,3 +476,6 @@ input::-webkit-inner-spin-button {
     transition: height 160ms ease-out 0s;
     background: linear-gradient(135deg, rgb(3, 156, 73) 0%, rgb(1, 56, 26) 100%) !important;
 }
+.sc-launcher{
+  display: none !important;
+}

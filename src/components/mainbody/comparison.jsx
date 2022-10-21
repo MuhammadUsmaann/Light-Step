@@ -3,6 +3,7 @@ import graphimg from "../../images/comparisonaccordiangraph.png";
 import comparisongraph2 from "../../images/comparisongraph2.png";
 import DisplaySettingDropdown from "../header/dropdown/dsettingdropdown";
 import TimeTableDropdown from "../header/dropdown/timtabledropdown";
+
 const Comparison = () => {
   return (
     <>
@@ -20,34 +21,33 @@ const Comparison = () => {
             View query
           </button>
           <div
-            class="modal fade"
+            className="modal fade"
             id="exampleModal"
-            tabindex="-1"
+            tabIndex="-1"
             role="dialog"
             aria-labelledby="exampleModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header border-0">
+            <div className="modal-dialog" role="document">
+              <div className="modal-content">
+                <div className="modal-header border-0">
                   <h5
-                    class="modal-title font-24 font-weight-600"
+                    className="modal-title font-24 font-weight-600"
                     id="exampleModalLabel"
                   >
                     Memory Utilization
                   </h5>
                   <button
                     type="button"
-                    class="close"
+                    className="close"
                     data-dismiss="modal"
                     aria-label="Close"
                   >
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="modal-body text-light-gray border-0 pt-0">
+                <div className="modal-body text-light-gray border-0 pt-0">
                   <p className="font-14 font-weight-600 pb-3">Query</p>
-
                   <div className="d-flex justify-content-left">
                     <div className="rounded mt-2 blocka">a</div>
                     <div className=" border-bottom-div"></div>
@@ -111,6 +111,14 @@ const Comparison = () => {
           <DisplaySettingDropdown />
 
           <TimeTableDropdown />
+          <div className="btn-group" role="group" aria-label="Basic example">
+            <button type="button" className="btn h-32px btn-white d-flex align-items-center px-1 custom-border-light ">
+            <svg viewBox="0 0 24 24" className="C9Y-Icon-base C9Y-Icon-font icon-chevron-left"><path d="m15 18-6-6 6-6"></path></svg>
+            </button>
+            <button type="button" className="btn h-32px btn-white d-flex align-items-center px-1 custom-border-light ">
+            <svg viewBox="0 0 24 24" className="C9Y-Icon-base C9Y-Icon-font icon-chevron-right"><path d="m9 18 6-6-6-6"></path></svg>
+            </button>
+          </div>
         </div>
       </div>
 

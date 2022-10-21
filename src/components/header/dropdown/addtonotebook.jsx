@@ -1,6 +1,6 @@
 import React from "react";
 
-const ShareDropdown = () => {
+const AddtoNoteBook = () => {
     
   return (
     <>
@@ -13,7 +13,7 @@ const ShareDropdown = () => {
           aria-haspopup="true"
           aria-expanded="false"
         >
-          Share
+          Add to notebook
         </button>
         <div
           className={`dropdown-menu custom-share-dropdown p-0`}
@@ -41,11 +41,11 @@ const ShareDropdown = () => {
                     navigator.clipboard.writeText(e.target.value);
                   }}
                   aria-invalid="false"
-                  readOnly
                   id=":r9:"
                   type="text"
                   className="MuiInputBase-input MuiOutlinedInput-input Mui-disabled mui-qyjgik"
                   value="https://app.lightstep.com/s/change-intelligence/1tSKw6dn5TMi"
+                  readOnly
                 />
                 <div className="copy-icon-div">
                 <svg
@@ -65,4 +65,4 @@ const ShareDropdown = () => {
   );
 };
 
-export default ShareDropdown;
+export default AddtoNoteBook;

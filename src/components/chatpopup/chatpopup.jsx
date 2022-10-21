@@ -71,9 +71,12 @@ export const DemoOfChat = () => {
         onMessage={sendMessage}
       /> */}
 
+
+<button className='custom-btn-style text-light-gray rounded font-weight-600 font-12 position-relative mr-3' onClick={onClick}>Have a feedback?</button>
       <Launcher
         agentProfile={{
           teamName: 'Lightstep',
+          timer:"Ask us anything, or share your feedback",
           imageUrl: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0001-34.png'
         }}
         onMessageWasSent={onMessageWasSent}

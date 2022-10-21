@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import DropDownComp from "../../../header/dropdown";
 import subarrowicon from "../../../../images/lessthansubicon.svg";
 import attributeWMChangeGraph from "../../../../images/attributechangegraph.png";
 import ShareDropdown from "../../../header/dropdown/sharedropdown";
+import AddtoNoteBook from "../../../header/dropdown/addtonotebook";
 
 const MoreChanges = (props) => {
   const { data,key } = props;
@@ -117,7 +117,8 @@ const MoreChanges = (props) => {
                       <h5 className="font-14 font-weight-600 text-dark-grey">
                         p99 Latency
                       </h5>
-                      <DropDownComp text="Add to notebook"  />
+                      <AddtoNoteBook/>
+                      {/* <DropDownComp text="Add to notebook"  /> */}
                     </div>
                   </div>
                   <div className="d-flex align-items-center pt-2">
@@ -167,7 +168,8 @@ const MoreChanges = (props) => {
                       <h5 className="font-14 font-weight-600 text-dark-grey">
                         Rate
                       </h5>
-                      <DropDownComp text="Add to notebook"  />
+                      <AddtoNoteBook/>
+                      {/* <DropDownComp text="Add to notebook"  /> */}
                     </div>
                   </div>
                   <div></div>
@@ -186,7 +188,8 @@ const MoreChanges = (props) => {
                       <h5 className="font-14 font-weight-600 text-dark-grey">
                         Error %
                       </h5>
-                      <DropDownComp text="Add to notebook"  />
+                      <AddtoNoteBook/>
+                      {/* <DropDownComp text="Add to notebook"  /> */}
                     </div>
                   </div>
                   <div></div>

@@ -136,7 +136,7 @@ const Catalog = () => {
               <div className="card-body p-0 border-0 rounded-0 ">
                 
                 {performanceChanges.map((data) => {
-                  return <PerformanceChanges key= {data.id} data={data} />;
+                  return <PerformanceChanges key = {data.id} data={data} />;
                 })}
 
                 
