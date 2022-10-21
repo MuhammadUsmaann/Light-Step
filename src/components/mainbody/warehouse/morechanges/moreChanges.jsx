@@ -5,12 +5,12 @@ import ShareDropdown from "../../../header/dropdown/sharedropdown";
 import AddtoNoteBook from "../../../header/dropdown/addtonotebook";
 
 const MoreChanges = (props) => {
-  const { data,key } = props;
+  const { data } = props;
   const [detailCheck, setDetailCheck] = useState(false);
   const [dsblCustomerCheckbox, setdsblCustomerCheckbox] = useState(true);
   return (
     <>
-      <div key={key} className="card border-0 rounded-0  border-t-default text-light-gray">
+      <div className="card border-0 rounded-0  border-t-default text-light-gray">
         <div className="card-header border-0 bg-white p-0" id="heading0_1">
           <div
             className="p-3 pl62px cr-p"
